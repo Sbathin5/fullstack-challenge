@@ -12,5 +12,4 @@
    c. Your application should be running locally. You'll see output indicating that your Flask application is running on a local server, typically at http://localhost:5000
    d. Open a web browser and go to http://localhost:5000 to interact with your URL shortener service
 4. Update the URL in script.js file
-   a. In shortenForm.addEventListener and redirectForm.addEventListener functions of script.js file, if your local server is different to "http://localhost:5000", replace the "http://localhost:5000"
-   in these functions with your localhost URL
+   a. In shortenForm.addEventListener and redirectForm.addEventListener functions of script.js file, if your local server is different to "http://127.0.0.1:5000", replace the "http://127.0.0.1:5000" in these functions with your localhost URL
