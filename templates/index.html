@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    
+    <form id="shorten-form">
+        <input type="url" name="long_url" id="long-url" placeholder="Enter a long URL" required>
+        <button type="submit">Shorten</button>
+    </form>
+    
+    <div id="shortened-url"></div>
+   
+    <form id="redirect-form">
+        <input type="text" name="short_url" placeholder="Enter the short URL" required>
+        <button type="submit">Redirect</button>
+    </form>
+
+    <div id="clear-button">
+        <input type="reset" value="Clear" >
+    </div>
+    
+    
+    <!-- Including JavaScript file here -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the main content */
+h1 {
+    text-align: center;
+}
+
+/* Style the forms and buttons */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="url"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+}
+
+/* Style the "shortened-url" div */
+#shortened-url {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Style the "redirect-button" */
+#redirect-button {
+    display: block;
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Center the "redirect-button" */
+#redirect-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Add some margin to the "shortened-url" and "redirect-button" */
+#shortened-url, #redirect-button {
+    margin-top: 20px;
+}
+
+/* Add styling for the Clear button */
+#clear-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#clear-button input[type="reset"] {
+    background-color: #ff0000; /* Change the background color to red */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#clear-button input[type="reset"]:hover {
+    background-color: #ff3333; /* Change the background color on hover */
+}
+
+/* Style for the shortened URL div */
+
+#shortened-url {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
